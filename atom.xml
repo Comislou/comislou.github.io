@@ -6,7 +6,7 @@
   <link href="https://comislou.github.io/atom.xml" rel="self"/>
   
   <link href="https://comislou.github.io/"/>
-  <updated>2024-03-09T03:29:33.842Z</updated>
+  <updated>2024-09-18T07:14:32.842Z</updated>
   <id>https://comislou.github.io/</id>
   
   <author>
@@ -17,23 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://comislou.github.io/posts/hello-world/"/>
-    <id>https://comislou.github.io/posts/hello-world/</id>
-    <published>2024-04-02T08:32:53.976Z</published>
-    <updated>2024-03-09T03:29:33.842Z</updated>
+    <title>使用 OpenProxyList 获取免费 V2ray 代理节点</title>
+    <link href="https://comislou.github.io/posts/openproxylist/"/>
+    <id>https://comislou.github.io/posts/openproxylist/</id>
+    <published>2024-09-17T12:39:39.000Z</published>
+    <updated>2024-09-18T07:14:32.842Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">使用 OpenProxyList 获取免费代理节点</summary>
     
     
     
+    <category term="Proxy" scheme="https://comislou.github.io/categories/Proxy/"/>
+    
+    
+    <category term="Proxy" scheme="https://comislou.github.io/tags/Proxy/"/>
     
   </entry>
   

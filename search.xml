@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>使用 OpenProxyList 获取免费 V2ray 代理节点</title>
+    <url>/posts/openproxylist/</url>
+    <content><![CDATA[<p><img src="https://gcore.jsdelivr.net/gh/Comislou/blogcdn/img/blog/post/openproxylist/openproxylist.webp" alt="OpenProxyList" loading="lazy"></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><strong>Open Proxy List</strong> 是一个收集各种免费VPN、代理节点为一体的清单网站<br>在网站中, 你可以查看<strong>免费的</strong> <code>OpenVPN、HTTP、SOCKS 代理和 V2Ray 服务器</code>。享受快速、安全、不受限制的互联网，无隐藏费用或注册要求。<br>你还可以通过导入或在线获取由网站提供的.txt文件来自动订阅由网站提供的节点</p>
+<span id="more"></span>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h2><p><strong>主页</strong>: <a href="https://openproxylist.com/">https://openproxylist.com/</a><br><strong>HTTP(s)、SOCKS4、SOCKS5</strong>: <a href="https://openproxylist.com/proxy/">https://openproxylist.com/proxy/</a><br><strong>OpenVPN</strong>: <a href="https://openproxylist.com/openvpn/">https://openproxylist.com/openvpn/</a><br><strong>V2Ray(VMess, VLess, Trojan &amp; Outline VPN)</strong>:  <a href="https://openproxylist.com/v2ray/">https://openproxylist.com/v2ray/</a></p>
+<h2 id="自动订阅"><a href="#自动订阅" class="headerlink" title="自动订阅"></a>自动订阅</h2><p><strong>此处使用V2RayN作为演示</strong></p>
+<ol>
+<li>先从 <code>Github</code> 上下载最新的 <code>V2rayN</code> , 下载 <code>v2rayN-With-Core.zip</code> 后提取全部文件至目录<blockquote>
+<p>V2rayN仓库地址: <a href="https://github.com/2dust/v2rayN">https://github.com/2dust/v2rayN</a></p>
+</blockquote>
+</li>
+</ol>
+<p><img src="https://gcore.jsdelivr.net/gh/Comislou/blogcdn/img/blog/post/openproxylist/v2rayn.webp" alt="V2rayN" loading="lazy"></p>
+<ol start="2">
+<li><p>前往 <a href="https://openproxylist.com/v2ray/">https://openproxylist.com/v2ray/</a> 右键 <code>V2Ray Subscription</code> 选择 <code>复制链接</code><br><img src="https://gcore.jsdelivr.net/gh/Comislou/blogcdn/img/blog/post/openproxylist/copylink.webp" alt="Copy the link" loading="lazy"></p>
+</li>
+<li><p>回到 <code>V2rayN</code> 中, 使用粘贴快捷键 <code>Ctrl + V</code> 直接导入订阅服务器 (或点击 <code>订阅分组-&gt;订阅设置-&gt;添加</code> 来自定义设置)</p>
+</li>
+<li><p>导入后点击 <code>订阅分组-&gt;更新当前订阅</code> 即可获得节点 (也可以设置自动更新)</p>
+</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>Proxy</category>
+      </categories>
+      <tags>
+        <tag>Proxy</tag>
+      </tags>
   </entry>
 </search>
